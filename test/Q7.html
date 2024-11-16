@@ -1,0 +1,35 @@
+<!-- Explain the Media queries in css example -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+        color: black;
+    }
+    /* screen 992 down to color red */
+    @media screen and (max-width:992px) {
+       body{ 
+        background-color: red;
+         color: white;
+}
+    }
+    /* screen 600 down to color blue */
+    @media screen and (max-width:600px) {
+        body{
+            background-color: blue;
+            color: brown;
+        }
+        
+    }
+</style>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolorum!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quas officiis a facere, dicta aliquid repellendus voluptates totam atque molestias quam similique eaque, earum laboriosam ratione necessitatibus quaerat voluptatibus adipisci rem quae nesciunt labore! Deleniti sint delectus corporis eaque architecto, fugit quasi aut earum corrupti quisquam blanditiis eum tenetur eius.</p>
+</body>
+</html>
